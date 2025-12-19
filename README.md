@@ -36,6 +36,7 @@ uvicorn app.main:app --reload
 
 - **Groq**: https://console.groq.com/keys (free)
 - **Resend**: https://resend.com/api-keys (free, 100 emails/day)
+- **Qdrant**
 
 ## Architecture
 ```
