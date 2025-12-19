@@ -108,7 +108,7 @@ def send_research_report(to_email: str, query: str, report: str, sources: List[D
                 "Content-Type": "application/json"
             },
             json={
-                "from": "Research Automator <onboarding@resend.dev>",
+                "from": "Research Automator <no-reply@research-automator.com>",
                 "to": [to_email],
                 "subject": f"Research Report: {query[:60]}...",
                 "html": html_content
