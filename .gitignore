@@ -12,6 +12,7 @@ venv/
 .env.local
 secrets.json
 config.json
+.env
 
 # IDE
 .vscode/
